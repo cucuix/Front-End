@@ -5,3 +5,33 @@
     text-align: left;
 }
 
+body {
+    background: rgba(177, 171, 171, 0.76);
+    margin:0px
+}
+.botao {
+    background-color: #21b5c0;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3;
+}
+
+.botao:hover {
+    background-color: #21b5c0;
+    transform: scale(1.10)
+}
+
+.card {
+    background-color: rgba(219, 205, 205, 0.753);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+
